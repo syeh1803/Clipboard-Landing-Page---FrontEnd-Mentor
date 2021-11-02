@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply py-3 px-20 text-white rounded-full tracking-wide;
+}
+
+.btn-md {
+    @apply md:px-9;
+}
+
+.btn-green {
+    @apply bg-strongCyan;
+}
+
+.btn-purple {
+    @apply bg-lighBlue;
+}
